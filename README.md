@@ -36,3 +36,50 @@ The pipeline includes:
 ```bash
 git clone https://github.com/your-username/titanic-svm.git
 cd titanic-svm
+
+Install dependencies
+
+bash
+Copy
+Edit
+pip install -r requirements.txt
+Run the script
+
+bash
+Copy
+Edit
+python titanic_svm.py
+🧾 Output
+The script prints the model's accuracy on the test set:
+
+makefile
+Copy
+Edit
+Accuracy: 0.8324
+📝 Requirements
+txt
+Copy
+Edit
+pandas
+numpy
+scikit-learn
+seaborn
+Save the above in a requirements.txt file.
+
+📁 File Structure
+bash
+Copy
+Edit
+.
+├── titanic_svm.py          # Main Python script
+├── titanic.csv             # Dataset file (not included; download from Kaggle)
+├── requirements.txt        # Dependencies
+└── README.md               # Project documentation
+📌 Notes
+You must download the Titanic dataset (titanic.csv) and place it in the project root directory.
+
+This model uses a simple SVM with default hyperparameters and basic preprocessing.
+
+📬 Contact
+If you have any questions or feedback, feel free to reach out!
+
